@@ -27,14 +27,14 @@ export default function Home() {
               <div className=" text-center items-center text-1.5xl p-10 ">
         <h1 className=" text-4xl text-cyan-500 items-center pb-3">Veeramanikandan</h1>
         <h2 className=" text-lg">Software developer</h2>
-        <h3 className=" leading-6">Freelancer providing services for programing and design content needs.Join me down and let'sget cracking!</h3>
+        <h3 className=" leading-6">{'Freelancer providing services for programing and design content needs.Join me down and let'}sget cracking!</h3>
       </div>
       <div className="flex gap-10 justify-center text-blue-600 text-4xl">
              <button> <a href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3Bfq5XuYJvRyyY8yEGvVUrSQ%3D%3D"><AiFillLinkedin/></a></button> 
              <button>  <a href="mailto:apkveeraa@gmail.com"><AiFillMail/> </a></button>
       </div>
       <div className="relative w-60 mt-5 mx-auto  bg-sky-300 rounded-full overflow-hidden ">
-            <Image src={veera}  className=""/>
+            <Image src={veera} alt="veera" className=""/>
       </div>
       </section>
      
